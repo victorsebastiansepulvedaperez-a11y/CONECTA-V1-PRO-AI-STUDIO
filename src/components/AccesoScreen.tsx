@@ -79,7 +79,7 @@ export default function AccesoScreen({ onNavigate }: AccesoScreenProps) {
             <img 
               alt="Conecta Logo" 
               className="w-12 h-12 object-contain" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6RPxM34qzBEQ9crx4KWMh0Xt1M_v-Ss0DDEfchxEINkJjDeD6jKAuckQ1SeZKza7BprYE-cNBHrcWKG4QQZF7cFQdEpn3UAge9rade2d2cS_puxlTZFbcCmBQ0mc1Kp4NrXIoZ7hRE75T6B77-rXbr2Rg4MN-93XeMi_4GRkhrQuM1oxa61pCrVoraiKtkAH-1cUMMRZ95Fw3l4BQcdNrypUBrsFP4mr4FVVslmDVbluuzUIEFUISSKpVcVKbqlgsBoQ"
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
             />
           </div>
           <div className="flex flex-col">
