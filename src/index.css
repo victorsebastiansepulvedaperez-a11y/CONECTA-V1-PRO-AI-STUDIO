@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom utilities */
+.glass-card {
+  background: rgba(32, 31, 36, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(207, 188, 255, 0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(255, 255, 255, 0.03);
+}
+
+.neobrutal-card {
+  background-color: #1c1b20;
+  border: 2px solid #cfbdff;
+  box-shadow: 4px 4px 0px 0px #6750a4;
+  transition: all 0.2s ease;
+}
+
+.neobrutal-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #6750a4;
+}
+
+.neobrutal-button {
+  background-color: #4d4465;
+  border: 2px solid #cdc0e8;
+  box-shadow: 4px 4px 0px 0px #cdc0e8;
+}
+
+.neobrutal-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px 0px #cdc0e8;
+}
+
+.puffy-card {
+  background: #1c1b20;
+  border: 2px dashed #c9a74d;
+  box-shadow: 0 10px 30px rgba(201, 167, 77, 0.15);
+}
+
+.custom-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='white'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1.25rem;
+}
+
+/* Animations & effects */
+@keyframes pulse-ring {
+  0% { transform: scale(0.95); opacity: 0.5; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(0.95); opacity: 0.5; }
+}
+
+.pulse-ring-active {
+  animation: pulse-ring 2s infinite ease-in-out;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Conecta V2 Pro",
+  "description": "Enterprise SaaS platform for emotional intelligence in the classroom. Featuring clinical case management, parent engagement, directorship, teacher dashboard, and student wellness portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
